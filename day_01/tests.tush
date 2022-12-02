@@ -1,0 +1,5 @@
+$ ../top_total < ../input
+| 70613
+
+$ ../top_total 3 < ../input
+| 205805

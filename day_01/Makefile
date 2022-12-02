@@ -14,6 +14,10 @@ $(binaries): %: %.o
 %.o: %.cc
 	$(CXX) -c $(CXXFLAGS) $^ -o $@
 
+.PHONY: test
+test: $(binaries) input tests.tush
+	tush-check tests.tush
+
 .PHONY: clean
 clean:
-	rm -f $(binaries) $(objects)
+	rm -f $(binaries) $(objects) tush-output

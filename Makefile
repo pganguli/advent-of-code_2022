@@ -1,4 +1,4 @@
-TOPTARGETS := all clean
+TOPTARGETS := all test clean
 
 SUBDIRS := $(wildcard */.)
 
