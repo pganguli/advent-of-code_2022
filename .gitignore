@@ -1,2 +1,7 @@
 **/*.o
 **/tush-output
+
+day_01/top_total
+day_02/rps_score
+day_03/rucksack
+day_04/subset
